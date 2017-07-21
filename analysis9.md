@@ -1,15 +1,26 @@
+---
+title: 实分析
+tags:
+  - 陶哲轩实分析
+  - 数学
+mathjax: true
+date: 2017-07-20 15:31:00
+---
+
+
+
 ### 实分析第九章
 ---
-#### ```习题9.1```
+#### 习题9.1
 ---
 
 ***
-* **9.1.1**
+* ** 9.1.1 **
 $$
 设X是实直线的子集合，并设Y是集合，使得
 X\subseteq Y \subseteq  \overline{X}
 .
-\\证明\overline{X} = \overline{Y}.
+\\ 证明\overline{X} = \overline{Y}.
 $$
 
 ---
@@ -52,9 +63,10 @@ $$
 
 ***
 * **9.1.5**
-证明引理9.1.14
 $$
-设X是\mathbb{R}的子集合,并设x\in \mathbb{R},那么x是X的附着点当且仅当存在一个全由X的元素组成的元素组成的序列（a_n)^\infty_{n=0},它收敛到x.
+设X是\mathbb{R}的子集合,并设x\in\mathbb{R},那么x是X的附着点
+\\当且仅当存在一个全由X的元素组成的元素组成的序列(a_n)^{\infty}_{n=0},
+\\它收敛到x.
 $$
 
 ---
@@ -87,7 +99,7 @@ $$
 ***
 * **9.1.8**
 $$
-设I是集合(可以是无限的),并且对于每个\alpha \in I,设X_\alpha 是\mathbb{R}的闭集.
+设I是集合(可以是无限的),并且对于每个\alpha \in I,设X_{\alpha} 是\mathbb{R}的闭集.
 \\证明交集\cap _{\alpha \in I}也是闭的.
 $$
 
@@ -98,7 +110,8 @@ $$
 ***
 * **9.1.9**
 $$
-设X是集合实直线的子集合,证明X的每个附着点要么是X的极限点，要么是X的孤立点，但不可得兼.
+设X是集合实直线的子集合,证明X的每个附着点
+\\要么是X的极限点，要么是X的孤立点，但不可得兼.
 \\反之,证明X的每个极限点和每个孤立点都是X的附着点.
 $$
 
@@ -144,7 +157,8 @@ $$
 $$
 设X是\mathbb{R}的子集,那么下面两个命题等价:
 \\(a)\ \ X是闭的并且是有界的.
-\\(b)\ \ 任给取值于X中的实数序列(a_n)^\infty_{n=0}(即对于一切n,a_n \in X),存在它的一个子序列(a_{n_j}),它收敛到X中的某数L.
+\\(b)\ \ 任给取值于X中的实数序列(a_n)^\infty_{n=0}(即对于一切n,a_n \in X),
+\\存在它的一个子序列(a_{n_j}),它收敛到X中的某数L.
 $$
 
 ---
@@ -175,13 +189,14 @@ $$
 ***
 
 ---
-#### ```习题9.2```
+#### 习题9.2
 ---
 
 ***
 * **9.2.1**
 $$
-设f:\mathbb{R}\rightarrow \mathbb{R},g:\mathbb{R}\rightarrow \mathbb{R},下列恒等式中哪些是真的,哪些是假的?对于前者给出证明,对于后者给出反例.
+设f:\mathbb{R}\rightarrow \mathbb{R},g:\mathbb{R}\rightarrow \mathbb{R},下列恒等式中哪些是真的,哪些是假的?
+\\对于前者给出证明,对于后者给出反例.
 \\(f+g)\circ h=(f\circ h)+(g\circ h),
 \\f\circ (g+h)=(f\circ g)+(f\circ h),
 \\(f+g)h=(fh)+(gh),
@@ -195,15 +210,17 @@ $$
 ***
 
 ---
-#### ```习题9.3```
+#### 习题9.3
 ---
 
 ***
 * **9.3.1**
 $$
-设X是\mathbb{R}的子集合,f:X\rightarrow \mathbb{R}是函数,并设E是X的子集合,x_0是E的附着点,而L是实数,那么下面两命题是逻辑上等价的:
+设X是\mathbb{R}的子集合,f:X\rightarrow \mathbb{R}是函数,并设E是X的子集合,x_0是E的附着点,而L是实数,
+\\那么下面两命题是逻辑上等价的:
 \\(a)f在x_0处沿着E收敛到L.
-\\(b)对于每个完全由E的元素组成,并且收敛到x_0的序列(a_n)^\infty_{n=0}序列(f(a_n))^\infty_{n=0}都收敛到L.
+\\(b)对于每个完全由E的元素组成,
+\\并且收敛到x_0的序列(a_n)^\infty_{n=0}序列(f(a_n))^\infty_{n=0}都收敛到L.
 $$
 
 ---
@@ -214,7 +231,8 @@ $$
 * **9.3.2**
 极限的算律
 $$
-设X是\mathbb{R}的自己,E是X的子集,x_0是E的附着点,并设f:X\rightarrow \mathbb{R}以及g:X\rightarrow \mathbb{R}都是函数.
+设X是\mathbb{R}的自己,E是X的子集,x_0是E的附着点,
+\\并设f:X\rightarrow \mathbb{R}以及g:X\rightarrow \mathbb{R}都是函数.
 \\假设f在x_0处沿着E有极限L,而g在x_0处沿着E有极限M.那么
 \\ \lim_{x\rightarrow x_0:x \in E}(f+g)(x)=L+M,
 \\ \lim_{x\rightarrow x_0:x \in E}(f-g)(x)=L-m,
@@ -249,13 +267,14 @@ $$
 ***
 
 ---
-#### ```习题9.4```
+#### 习题9.4
 ---
 ***
 * **9.4.1**
 连续性的等价表述
 $$
-设X是\mathbb{R}的子集合,f:X\rightarrow \mathbb{R}是函数，并设x_0是X的元素.那么下面三命题逻辑上等价:
+设X是\mathbb{R}的子集合,f:X\rightarrow \mathbb{R}是函数，并设x_0是X的元素.
+\\那么下面三命题逻辑上等价:
 \\(a)f在x_0处连续.
 \\(b)对于由X的元素组成的任何收敛到x_0的序列(a_n)^\infty_{n=0}都有
 \\ \lim_{n\rightarrow \infty}f(a_n)=f(x_0).
@@ -271,7 +290,8 @@ $$
 
 * **9.4.2**
 $$
-设X是\mathbb{R}的子集合,并设c \in \mathbb{R},证明由f(x):=c 定义的常值函数f:X \rightarrow  \mathbb{R}是连续的,
+设X是\mathbb{R}的子集合,
+\\并设c \in \mathbb{R},证明由f(x):=c 定义的常值函数f:X \rightarrow  \mathbb{R}是连续的,
 \\并证明由g(x):=x定义的恒等函数g:X\rightarrow \mathbb{R}也是连续的.
 $$
 
@@ -303,7 +323,8 @@ $$
 * **9.4.5**
 $$
 设X和Y是\mathbb{R}的子集合,并设f:X \rightarrow Y,g: Y \rightarrow \mathbb{R}是函数.
-\\设x_0是X的点,如果f在x_0处连续,g在f(x_0)处连续,那么复合函数g\circ f:X \rightarrow \mathbb{R}在x_0处连续.
+\\设x_0是X的点,如果f在x_0处连续,g在f(x_0)处连续,
+\\那么复合函数g\circ f:X \rightarrow \mathbb{R}在x_0处连续.
 $$
 
 ---
@@ -336,7 +357,7 @@ $$
 ***
 
 ---
-#### ```习题9.4```
+#### 习题9.4
 ---
 ***
 * **9.5.1**
